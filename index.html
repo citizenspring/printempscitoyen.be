@@ -100,12 +100,25 @@
         color: #797d80;
         text-decoration: none;
       }
+
       .page {
+        width: 100%;
         max-width: 900px;
         margin: 2rem auto;
         padding: 2rem;
         background: rgba(255, 255, 255, 0.8);
       }
+
+      @media (max-width: 600px) {
+        .page {
+          padding: 0.5rem;
+        }
+      }
+
+      iframe {
+        width: 100%;
+      }
+
       .language {
         margin: 0 auto;
         text-align: center;
